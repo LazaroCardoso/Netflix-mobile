@@ -1,0 +1,42 @@
+@import url("/utils/index.css");
+@import url("/styles/components/status-bar.css");
+@import url("/styles/components/bottom-navbar.css");
+@import url("/styles/components/movie.css");
+@import url("/styles/components/navbar.css");
+@import url("/styles/components/play.css");
+
+body {
+    position: relative;
+}
+
+
+.wallpaper {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+.play {
+    margin-top: 293px;
+    margin-bottom: 43px;
+}
+
+.title {
+    margin-left: 12px;
+    font-weight: 700;
+    font-size: 21px;
+}
+
+.title--big {
+    font-size: 27px;
+}
+
+#previews {
+    margin-top: 23px;
+    margin-bottom: 28px;
+}
+
+.movie{
+    margin-top: 14px;
+    margin-bottom: 22px;
+}
