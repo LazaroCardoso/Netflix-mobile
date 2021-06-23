@@ -1,0 +1,16 @@
+@import url("/utils/index.css");
+@import url("/styles/components/status-bar.css");
+@import url("/styles/components/logo.css");
+@import url("/styles/components/edit-navbar.css");
+@import url("/styles/components/profile.css");
+
+.edit-navbar {
+    margin-top: 13px;
+}
+
+.center {
+    display: flex;
+    height: calc(100vh - 94px);
+    justify-content: center;
+    align-items: center;
+}
