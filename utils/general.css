@@ -9,3 +9,50 @@ p, h1, h2, h3, span, strong {
     font-family: 'roboto', Arial, Helvetica, sans-serif;
 }
 
+.max-resolution {
+    display: none;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+.max-resolution__text {
+    font-size: 20px;
+}
+
+.max-resolution__text--notebook {
+    display: none;
+}
+
+.max-resolution__text--tablet {
+    display: block;
+}
+
+.content {
+    display: block;
+}
+
+/* Tablets */
+@media screen and (min-width: 430px) {
+    .max-resolution {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .content {
+        display: none;
+    }
+}
+
+/* Notebooks */
+@media screen and (min-width: 992px) {
+    .max-resolution__text--tablet {
+        display: none;
+    }
+
+    .max-resolution__text--notebook {
+        display: block;
+    }
+}
