@@ -1,8 +1,21 @@
 @import url("/utils/index.css");
 @import url("/styles/components/status-bar.css");
-@import url("/styles/components/bottom-navbar.css");
-@import url("/styles/components/movie.css");
-@import url("/styles/components/navbar.css");
-@import url("/styles/components/play.css");
-@import url("/styles/components/search-movie.css");
-@import url("/styles/components/search-input.css");
+@import url("/styles/components/logo.css");
+
+
+.center {
+    display: flex;
+    height: calc(100vh - 44px);
+    justify-content: center;
+}
+
+@keyframes load {
+    from{
+        opacity: 0;
+        transform: scale(0.5);
+    }
+    to {
+        opacity: 1;
+        transform: 1;
+    }
+}

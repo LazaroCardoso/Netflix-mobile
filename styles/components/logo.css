@@ -1,0 +1,11 @@
+.logo {
+    width: 207px;
+}
+
+.logo--small {
+    width: 138px;
+}
+
+.logo {
+    animation: load 1500ms ease-in-out;
+}
