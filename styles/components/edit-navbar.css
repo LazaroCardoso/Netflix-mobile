@@ -1,0 +1,11 @@
+.edit-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.edit-navbar__space {
+    width: 24px;
+}
