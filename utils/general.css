@@ -9,6 +9,10 @@ p, h1, h2, h3, span, strong {
     font-family: 'roboto', Arial, Helvetica, sans-serif;
 }
 
+a{
+    text-decoration: none;
+}
+
 .max-resolution {
     display: none;
     text-align: center;

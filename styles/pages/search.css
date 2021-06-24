@@ -1,0 +1,24 @@
+@import url("/utils/index.css");
+@import url("/styles/components/status-bar.css");
+@import url("/styles/components/search-input.css");
+@import url("/styles/components/search-movie.css");
+@import url("/styles/components/bottom-navbar.css");
+
+body{
+    position: relative;
+}
+
+
+.title{
+    font-weight: 700;
+    font-size: 27px;
+    margin: 21px auto;
+    width: 90%;
+    
+}
+
+.bottom-navbar__background {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
